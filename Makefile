@@ -8,7 +8,7 @@ CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra
 
 # Source files
-SRCS = src/ops.cpp
+SRCS = src/main.cpp src/ops.cpp
 OBJS = $(SRCS:.cpp=.o)
 TARGET = gpt2
 
